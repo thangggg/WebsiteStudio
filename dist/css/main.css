@@ -381,6 +381,20 @@ body {
   .owl-banner .owl-nav {
     padding: 0 20px; } }
 
+.footer {
+  background-color: rgba(237, 57, 82, 0.1); }
+  .footer h5 {
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: 700; }
+  .footer .copyright {
+    background-color: red;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #181818;
+    color: #fff; }
+
 .contact {
   padding: 40px 20px 0 0; }
 
