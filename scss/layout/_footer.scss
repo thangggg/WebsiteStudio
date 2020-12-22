@@ -1,0 +1,17 @@
+.footer {
+    background-color: rgba($secondary-color,.1);
+    h5 {
+        font-size: 18px;
+        margin: 20px 0;
+        font-weight: 700;
+
+    }
+    .copyright {
+        background-color: red;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: darken($primary-color, 20);
+        color: #fff;
+    }
+}

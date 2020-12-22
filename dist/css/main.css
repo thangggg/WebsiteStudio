@@ -502,32 +502,52 @@ h3.p-title {
   .owl-banner .owl-nav {
     padding: 0 20px; } }
 
+
 @media (max-width: 765px) {
   .section__why .item {
     min-height: 300px; } }
 
+.footer {
+  background-color: rgba(237, 57, 82, 0.1); }
+  .footer h5 {
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: 700; }
+  .footer .copyright {
+    background-color: red;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #181818;
+    color: #fff; }
+
+
 .contact {
   padding: 40px 20px 0 0; }
-  .contact__left .form-item {
-    margin-top: 20px; }
-  .contact__left input {
-    margin-top: 5px; }
-  .contact__left textarea {
-    margin-top: 10px; }
-  .contact__left button {
-    margin-top: 20px;
-    height: 40px;
-    width: 80px;
-    color: #fff;
-    font-weight: 800;
-    font-size: 16px;
-    background-color: rgba(75, 75, 75, 0.8);
-    border-radius: 5px;
-    cursor: pointer;
-    outline: none; }
-    .contact__left button:hover {
-      background-color: rgba(237, 57, 82, 0.3);
-      color: #4b4b4b; }
+
+.form-item {
+  margin-top: 20px; }
+
+.form-contact input {
+  margin-top: 5px; }
+
+.form-contact textarea {
+  margin-top: 10px; }
+
+.form-contact button {
+  margin-top: 20px;
+  height: 40px;
+  width: 80px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  background-color: rgba(75, 75, 75, 0.8);
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none; }
+  .form-contact button:hover {
+    background-color: rgba(237, 57, 82, 0.3);
+    color: #4b4b4b; }
 
 .blog {
   margin-top: 20px; }
@@ -550,3 +570,45 @@ h3.p-title {
     display: block; }
   .blog .posts:hover .posts-text {
     color: #181818; }
+
+.service-name {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 700; }
+
+.service-description {
+  font-weight: 500;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 20px; }
+  .service-description::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 2px;
+    background-color: #4b4b4b;
+    top: 0;
+    left: 0; }
+
+.service-feature {
+  margin-bottom: 10px; }
+
+.service-contact {
+  margin: 20px 0; }
+
+article {
+  margin-bottom: 20px; }
+
+.bai1 .share {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; }
+  .bai1 .share i {
+    margin-right: 10px;
+    font-size: 30px; }
+    .bai1 .share i:hover {
+      color: #ed3952;
+      transition: all 0.5s ease-out; }
