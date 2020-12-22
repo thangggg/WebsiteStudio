@@ -1,0 +1,30 @@
+@mixin easeOut {
+    transition: all 0.5s ease-out;
+}
+
+// Responsive
+
+@mixin desktop {
+    @media screen and (max-width: #{$desktop}) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width: #{$tablet}){
+        @content
+    }
+}
+
+@mixin md-mobile {
+    @media screen and (max-width: #{$md-mobile}){
+        @content
+    }
+}
+
+
+@mixin sm-mobile{ 
+    @media screen and (max-width: #{$sm-mobile}){
+        @content
+    }
+}
