@@ -1,0 +1,16 @@
+.service-title {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  b {
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: $primary-color;
+    font-weight: bolder;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+}
