@@ -1,3 +1,6 @@
+.second-text {
+  color: #ed3952; }
+
 /* Reset CSS */
 *,
 *:after,
@@ -12,18 +15,59 @@ ol {
   list-style: none; }
 
 a {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  color: #4b4b4b; }
 
 img {
   width: 100%;
   display: inline-block; }
 
 /* Typographic rules */
+@font-face {
+  font-family: arial;
+  src: url("../fonts/arial.ttf"); }
+
 body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",sans-serif;
+  font-family: Arial, "arial", Helvetica, sans-serif;
   font-size: 16px;
-  line-height: 1;
+  font-weight: 400;
   color: #4b4b4b !important; }
+
+.form-group {
+  font-weight: 700; }
+
+.input-group {
+  outline: none;
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding-left: 10px; }
+
+textarea {
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px; }
+
+.posts-title__name {
+  color: #fff;
+  background-color: #ed3952;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 15px; }
+
+.posts-title li {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(75, 75, 75, 0.2); }
+  .posts-title li img {
+    height: 50px;
+    width: 50px; }
+  .posts-title li a {
+    font-weight: 500;
+    margin-left: 20px; }
+    .posts-title li a:hover {
+      color: rgba(237, 57, 82, 0.8); }
 
 .service-title {
   display: flex;
@@ -336,3 +380,48 @@ body {
       width: 100%; }
   .owl-banner .owl-nav {
     padding: 0 20px; } }
+
+.contact {
+  padding: 40px 20px 0 0; }
+  .contact__left .form-item {
+    margin-top: 20px; }
+  .contact__left input {
+    margin-top: 5px; }
+  .contact__left textarea {
+    margin-top: 10px; }
+  .contact__left button {
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: rgba(75, 75, 75, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none; }
+    .contact__left button:hover {
+      background-color: rgba(237, 57, 82, 0.3);
+      color: #4b4b4b; }
+
+.blog {
+  margin-top: 20px; }
+  .blog .posts-link {
+    font-weight: 700;
+    display: block;
+    margin-top: 10px;
+    position: relative; }
+    .blog .posts-link::after {
+      content: "";
+      position: absolute;
+      border: 1px solid #cbcbcb;
+      bottom: -5px;
+      left: 0;
+      width: 50px; }
+  .blog .posts-text {
+    color: #7e7e7e;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block; }
+  .blog .posts:hover .posts-text {
+    color: #181818; }

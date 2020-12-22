@@ -1,0 +1,26 @@
+.posts-title{
+  &__name {
+    color: #fff;
+    background-color: $secondary-color;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+  }
+li {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba($primary-color, .2);
+  img {
+    height: 50px;
+    width: 50px;
+  }
+  a {
+    font-weight: 500;
+    margin-left: 20px;
+    &:hover {
+      color: rgba($secondary-color, .8);
+    }
+  }
+}
+}

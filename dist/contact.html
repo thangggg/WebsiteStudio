@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css?family=Segoe UI"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300;1,400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -20,18 +21,82 @@
     />
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="../scss/vendors/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
     <title>Liên hệ</title>
   </head>
   <body>
     <div class="header"></div>
     <div class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-8">abc</div>
-                <div class="col-4">def</div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-8 contact__left">
+            <p>
+              Studio xin kính chào Quý khách. 
+              Để biết thêm chi tiết chụp hình sản phẩm,
+              chụp hình quảng cáo, chụp hình thời trang, 
+              quý khách hàng liên hệ cho Studio qua 
+              Sđt/zalo: <span class="second-text"> 888.888</span> hoặc quý
+              khách có thể  điền đầy đủ thông tin vào
+              mẫu sau để được đội ngũ tư vấn gọi điện
+              trực tiếp cho Quý khách hàng. Studio xin cảm ơn!
+            </p>
+            <form action="" class="form-group">
+              <p class="form-item">
+                <label>
+                  Tên của bạn (bắt buộc)
+                  <br>
+                  <input type="text" placeholder="Nhập tên của bạn" class="input-group"/>
+                </label>
+              </p>
+              <p class="form-item">
+                <label>
+                  Số điện thoại (bắt buộc)
+                  <br>
+                  <input type="text" placeholder="Nhập SĐT" class="input-group"/>
+                </label>
+              </p>
+              <p class="form-item">
+                <label>
+                  Sản phẩm chụp
+                  <br>
+                  <input type="text" placeholder="Tên sản phẩm" class="input-group"/>
+                </label>
+              </p>
+              <p class="form-item">
+                <label>
+                  Địa chỉ
+                  <br>
+                  <textarea rows="10" placeholder="Địa chỉ"></textarea>
+                </label>  
+              </p>
+              <button class="btn">Gửi đi</button>
+            </form>
+          </div>
+          <div class="col-4 posts-title">
+            
+            <p class="posts-title__name">Bài viết mới</p>
+            <ul>
+              <li>
+                <img src="./images/blog/1.jpg" alt="" height="50px"/>
+                <a href="#">Bốn điều cần lưu ý khi chụp ảnh thời trang</a>
+              </li>
+              <li>
+                <img src="./images/blog/1.jpg" alt="" height="50px"/>
+                <a href="#">Bốn điều cần lưu ý khi chụp ảnh thời trang</a>
+              </li>
+              <li>
+                <img src="./images/blog/1.jpg" alt="" height="50px"/>
+                <a href="#">Bốn điều cần lưu ý khi chụp ảnh thời trang</a>
+              </li>
+              <li>
+                <img src="./images/blog/1.jpg" alt="" height="50px"/>
+                <a href="#">Bốn điều cần lưu ý khi chụp ảnh thời trang</a>
+              </li>
+            </ul>
+            
+          </div>
         </div>
+      </div>
     </div>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>

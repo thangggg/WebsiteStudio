@@ -4,14 +4,19 @@
 @import 'abstracts/mixins';
 @import 'abstracts/function';
 
+@import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
 
 // @import 'components/';
-@import 'components/service-title.scss';
+@import 'components/form';
+@import 'components/button';
+@import 'components/posts-title';
+@import 'components/service-title';
 
 // @import 'layout/';
 @import 'layout/header';
 
 // @import 'pages'
-
+@import 'pages/contact';
+@import 'pages/blog';
