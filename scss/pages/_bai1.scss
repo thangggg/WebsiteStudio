@@ -1,0 +1,19 @@
+.bai1 {
+  .share{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    margin-top: 20px;
+    i {
+      margin-right: 10px;
+      font-size: 30px;
+      &:hover {
+        color: $secondary-color;
+        @include easeOut;
+      }
+    }
+  }
+}

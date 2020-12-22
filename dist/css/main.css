@@ -383,26 +383,30 @@ body {
 
 .contact {
   padding: 40px 20px 0 0; }
-  .contact__left .form-item {
-    margin-top: 20px; }
-  .contact__left input {
-    margin-top: 5px; }
-  .contact__left textarea {
-    margin-top: 10px; }
-  .contact__left button {
-    margin-top: 20px;
-    height: 40px;
-    width: 80px;
-    color: #fff;
-    font-weight: 800;
-    font-size: 16px;
-    background-color: rgba(75, 75, 75, 0.8);
-    border-radius: 5px;
-    cursor: pointer;
-    outline: none; }
-    .contact__left button:hover {
-      background-color: rgba(237, 57, 82, 0.3);
-      color: #4b4b4b; }
+
+.form-item {
+  margin-top: 20px; }
+
+.form-contact input {
+  margin-top: 5px; }
+
+.form-contact textarea {
+  margin-top: 10px; }
+
+.form-contact button {
+  margin-top: 20px;
+  height: 40px;
+  width: 80px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  background-color: rgba(75, 75, 75, 0.8);
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none; }
+  .form-contact button:hover {
+    background-color: rgba(237, 57, 82, 0.3);
+    color: #4b4b4b; }
 
 .blog {
   margin-top: 20px; }
@@ -454,3 +458,18 @@ body {
 
 article {
   margin-bottom: 20px; }
+
+.bai1 .share {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #4b4b4b;
+  border-bottom: 1px solid #4b4b4b;
+  margin-top: 20px; }
+  .bai1 .share i {
+    margin-right: 10px;
+    font-size: 30px; }
+    .bai1 .share i:hover {
+      color: #ed3952;
+      transition: all 0.5s ease-out; }
