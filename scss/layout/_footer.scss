@@ -1,12 +1,18 @@
 .footer {
-    background-color: rgba($secondary-color,.1);
+    background-color: $secondary-color;
+    margin-top: 20px;
+    color: #fff;
     h5 {
         font-size: 18px;
         margin: 20px 0;
         font-weight: 700;
 
     }
+    .map{
+        margin-top: 20px;
+    }
     .copyright {
+        margin-top: 15px ;
         background-color: red;
         height: 30px;
         line-height: 30px;
