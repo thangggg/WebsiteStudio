@@ -24,6 +24,20 @@ $(document).ready(function() {
         margin:10,
         nav:true,
         items: 1,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: false,
         navText: ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"]
-    }); 
+    });
+    $('.owl-danhgia').owlCarousel({
+        autoHeight: true,
+        center: true,
+        loop:true,
+        margin:10,
+        nav:true,
+        dots: false,
+        items: 3,
+        navText: ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"]
+
+    }) 
 });
