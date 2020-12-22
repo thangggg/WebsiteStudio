@@ -1,9 +1,0 @@
-.gap-10 {
-  gap: 10px; }
-
-.dropdown > .dropdown-menu {
-  opacity: 0;
-  transition: opacity 0.2s ease-in; }
-
-.dropdown.active > .dropdown-menu {
-  opacity: 1; }
