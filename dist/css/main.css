@@ -32,7 +32,8 @@ img {
 
 body {
   font-family: Arial, "arial", Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
   font-weight: 400;
   color: #4b4b4b !important; }
 
@@ -76,7 +77,7 @@ textarea {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  margin: 20px 0;
+  margin: 40px 0;
   gap: 10px; }
   .service-title b {
     display: block;
@@ -87,7 +88,8 @@ textarea {
     font-weight: bolder; }
   .service-title h3 {
     text-transform: uppercase;
-    color: #ed3952; }
+    color: #ed3952;
+    font-size: 1.5rem; }
 
 body {
   position: relative;
