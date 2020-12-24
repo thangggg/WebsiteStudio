@@ -6,7 +6,6 @@
         font-size: 18px;
         margin: 20px 0;
         font-weight: 700;
-
     }
     .map{
         margin-top: 20px;
@@ -19,5 +18,9 @@
         text-align: center;
         background-color: darken($primary-color, 20);
         color: #fff;
+    }
+    iframe {
+        max-width: 100%;
+        max-height: 100%;
     }
 }

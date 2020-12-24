@@ -529,6 +529,9 @@ h3.p-title {
     text-align: center;
     background-color: #181818;
     color: #fff; }
+  .footer iframe {
+    max-width: 100%;
+    max-height: 100%; }
 
 .contact {
   padding: 40px 20px 0 0; }
