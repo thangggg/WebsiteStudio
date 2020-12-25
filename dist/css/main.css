@@ -91,6 +91,45 @@ textarea {
     color: #ed3952;
     font-size: 1.5rem; }
 
+.call {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 30px;
+  top: 60%;
+  z-index: 10;
+  text-align: end; }
+  .call img {
+    width: 54px !important;
+    height: 54px !important;
+    margin: 6px !important;
+    background-size: 100% !important;
+    border: 2px solid #fff !important;
+    border-radius: 50% !important;
+    cursor: pointer;
+    position: relative; }
+    .call img:hover {
+      text-decoration: none !important;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15), 0 4px 15px rgba(0, 0, 0, 0.13); }
+  .call > div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; }
+  .call .phone-img:hover + span {
+    display: block; }
+  .call .mess-img:hover + span {
+    display: block; }
+  .call .zalo-img:hover + span {
+    display: block; }
+  .call__phone, .call__mess, .call__zalo {
+    display: none;
+    background-color: #ed3952;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    border-radius: 7px; }
+
 body {
   position: relative;
   background: #fff; }

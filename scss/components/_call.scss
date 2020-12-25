@@ -1,0 +1,47 @@
+.call {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 30px;  
+  top: 60%;
+  z-index: 10;
+  text-align: end;
+  img {
+    width: 54px!important;
+    height: 54px!important;
+    margin: 6px!important;
+    background-size: 100%!important;
+    border: 2px solid #fff!important;
+    border-radius: 50%!important;
+    cursor: pointer;
+    position: relative;
+    &:hover {
+      text-decoration: none !important;
+      box-shadow: 0 5px 10px rgba(0,0,0,.15), 0 4px 15px rgba(0,0,0,.13);
+    }
+    
+  }
+  &>div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .phone-img:hover + span{
+    display: block;
+  }
+  .mess-img:hover + span{
+    display: block;
+  }
+  .zalo-img:hover + span{
+    display: block;
+  }
+  &__phone, &__mess, &__zalo {
+    display: none;
+    background-color: $secondary-color;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    border-radius: 7px;
+  }
+}
