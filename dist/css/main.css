@@ -247,17 +247,17 @@ h3.p-title {
     animation: dropdown .5s ease-in-out;
     transform: perspective(600px) rotateX(0deg); }
   .header .logo {
-    width: 200px;
-    height: 150px; }
+    width: 100px;
+    height: 120px; }
   .header .navigation {
-    height: 150px; }
+    height: 120px; }
   .header .navigation > ul > li {
     position: relative;
     padding: 1.5em 0.75em;
     transition: 0.3s ease;
     font-size: 20px;
     font-weight: 500;
-    height: 150px;
+    height: 120px;
     display: flex;
     align-items: center; }
   .header .navigation > ul > li:hover > a {

@@ -177,11 +177,11 @@ h3.p-title {
         transform: perspective(600px) rotateX(0deg);
     }
     .logo {
-        width: 200px;
-        height: 150px;
+        width: 100px;
+        height: 120px;
     }
     .navigation {
-        height: 150px;
+        height: 120px;
     }
     .navigation > ul > li {
         position: relative;
@@ -189,7 +189,7 @@ h3.p-title {
         transition: 0.3s ease;
         font-size: 20px;
         font-weight: 500;
-        height: 150px;
+        height: 120px;
         display: flex;
         align-items: center;
     }
