@@ -251,8 +251,8 @@ h3.p-title {
     height: 120px; }
   @media (max-width: 990px) {
     .header .logo {
-      width: 50px;
-      height: 100px; } }
+      width: 40px;
+      height: 60px; } }
   .header .navigation {
     height: 120px; }
   .header .navigation > ul > li {
@@ -493,9 +493,10 @@ h3.p-title {
   .owl-danhgia .owl-item.active.center .item {
     opacity: 1;
     margin-top: 0; }
-  .owl-danhgia .owl-item.active.center .thumbnail img {
-    width: 176px;
-    height: 176px; }
+  @media (min-width: 768px) {
+    .owl-danhgia .owl-item.active.center .thumbnail img {
+      width: 176px;
+      height: 176px; } }
   .owl-danhgia .owl-nav {
     position: absolute;
     left: 0;

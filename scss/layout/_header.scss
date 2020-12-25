@@ -182,8 +182,8 @@ h3.p-title {
     }
     @media (max-width: 990px) {
         .logo {
-            width: 50px;
-            height: 100px
+            width: 40px;
+            height: 60px
         }
     }
     .navigation {
@@ -464,9 +464,11 @@ h3.p-title {
         opacity: 1;
         margin-top: 0;
     }
-    .owl-item.active.center .thumbnail img {
-        width: 176px;
-        height: 176px;
+    @media (min-width: 768px) {
+        .owl-item.active.center .thumbnail img {
+            width: 176px;
+            height: 176px;
+        }
     }
     .owl-nav {
         position: absolute;
