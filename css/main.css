@@ -300,7 +300,7 @@ h3.p-title {
     transition: 0.3s ease;
     font-size: 20px;
     font-weight: 500;
-    height: 120px;
+    height: 100px;
     display: flex;
     align-items: center; }
   .header .navigation > ul > li:hover > a {
