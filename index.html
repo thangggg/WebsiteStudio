@@ -26,22 +26,38 @@
     <title>Studio Web</title>
   </head>
   <body>
+    <div class="call">
+      <div>
+        <img src="./images/call/phone.svg" alt="phone" class="phone-img">
+        <span class="call__phone">Gọi ngay</span>
+      </div>
+      <div>
+        <img src="./images/call/messenger.svg" alt="mess" class="mess-img">
+        <span class="call__mess">Chat với cúng tôi qua messenger</span>  
+      </div>
+      <div >
+        <img src="./images/call/zalo.svg" alt="zalo" class="zalo-img"/>
+        <span class="call__zalo">Chat với cúng tôi qua zalo</span>  
+      </div>
+    </div>
     <div class="header-top d-none d-lg-block">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
           <div class="time__contact">
             <p>
-              <span> <img src="./images/i_phone.png" alt=""></span>
-              Hotline: <a href="tel:0357654619">035 7654 619</a> 
+
+              <span> <img class="lazy-load" data-src="./images/i_phone.png" alt=""></span>
+              Hotline: <a href="tel:0363248678">0363.248.678</a> 
             </p>
             <p>
-              <span> <img src="./images/i_mail.png" alt=""></span>
-              Email: <a href="mailto:vbh30062001@gmail.com">vbh30062001@gmail.com</a> 
+              <span> <img class="lazy-load" data-src="./images/i_mail.png" alt=""></span>
+              Email: <a href="mailto:anstudio678@gmail.com">anstudio678@gmail.com</a> 
+
             </p>
           </div>
           <div class="top__search">
             <div class="btn btn-search">
-              <span> <img src="./images/i_search.png" alt=""></span>
+              <span> <img class="lazy-load" data-src="./images/i_search.png" alt=""></span>
               Search
             </div>
             <form action="" class="search-form">
@@ -54,23 +70,27 @@
     </div>
     <div class="header">
       <div class="container-lg">
-        <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex justify-content-between align-items-center" >
           <button class="btn btn-menu-open d-block d-lg-none">
             <span></span>
             <span></span>
             <span></span>
           </button>
-          <div class="logo">
-            <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+          <div class="logo d-flex align-items-center">
+            <a href="./index.html" class="d-none d-lg-block"><img class="lazy-load" data-src="./images/logo.png" alt=""></a>
+            <a href="./index.html" class="d-block -d-lg-none"><img class="lazy-load" data-src="./images/logo-2.png" alt=""></a>
           </div>
+          <div class="d-block d-lg-none"></div>
           <div class="navigation d-none d-lg-block">
             <ul class="d-flex justify-content-between">
               <li> <a href="./index.html"> Trang chủ </a></li>
               <li> <a href="#"> Giới thiệu</a></li>
-              <li class="dropdown"> <a href="#"> Dịch vụ</a>
+              <li class="dropdown"> <a href="./services/chup-anh-thoi-trang.html"> Dịch vụ</a>
                 <ul class="dropdown-menu">
-                  <li class="dropdown-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
-                  <li class="dropdown-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh chân dung </a></li>
+                  <li class="dropdown-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh sản phẩm trải nền </a></li>
+                <li class="dropdown-item"> <a href="./services/chup-anh-san-pham-concept.html"> Chụp ảnh sản phẩm theo concept </a></li>
+                <li class="dropdown-item"> <a href="./services/chup-anh-phu-kien.html"> Chụp ảnh phụ kiện </a></li>
+                <li class="dropdown-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
                 </ul>
               </li>
               <li> <a href="./blog.html"> Tin tức</a></li>
@@ -83,16 +103,18 @@
         <div class="sidebar__bg"></div>
         <div class="sidebar__menu">
           <ul>
-            <li> <a href="#"> Trang chủ </a></li>
+            <li> <a href="./index.html"> Trang chủ </a></li>
             <li> <a href="#"> Giới thiệu</a></li>
-            <li class="dropdown__sidebar"> <a href="#"> Sản phẩm</a>
+            <li class="dropdown__sidebar"> <a href="#">Dịch vụ</a>
               <ul class="dropdown__sidebar-menu" aria-labelledby="nav-menu">
-                <li class="dropdown__sidebar-item"> <a href="#"> Sản phẩm nổi bật </a></li>
-                <li class="dropdown__sidebar-item"> <a href="#"> Sản phẩm mới </a></li>
+                <li class="dropdown__sidebar-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh sản phẩm trải nền </a></li>
+                <li class="dropdown__sidebar-item"> <a href="./services/chup-anh-san-pham-concept.html"> Chụp ảnh sản phẩm theo concept </a></li>
+                <li class="dropdown__sidebar-item"> <a href="./services/chup-anh-phu-kien.html"> Chụp ảnh phụ kiện </a></li>
+                <li class="dropdown__sidebar-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
               </ul>
             </li>
-            <li> <a href="#"> Tin tức</a></li>
-            <li> <a href="#"> Liên hệ</a></li>
+            <li> <a href="./blog.html"> Tin tức</a></li>
+            <li> <a href="./contact.html"> Liên hệ</a></li>
           </ul>
         </div>
         <button class="btn btn-menu-close d-block d-lg-none">
@@ -100,19 +122,23 @@
           <span></span>
         </button>
       </div>
-      <form action="" class="search-form d-block d-lg-none">
-        <input type="text" class="btn" placeholder="Tìm kiếm...">
-        <button type="submit" class="btn"><i class="fas fa-search"></i></button>
-      </form>
+      <div class="form-search-respon">
+        <form action="" class="search-form d-block d-lg-none">
+          <input type="text" class="btn" placeholder="Tìm kiếm...">
+          <button type="submit" class="btn"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      
     </div>
     <div class="wrapper">
         <div class="owl-carousel owl-theme owl-banner">
-          <div class="item"><img src="./images/circle-photo-video-cameras-min.jpg" alt="" class="img-fluid"></div>
-          <div class="item"><img src="./images/portrait-smiling-korean-couple-making-selfie-photo-gray-studio-min.jpg" alt="" class="img-fluid"></div>
+          <div class="item"><img src="./images/banner/BE0_83912-min.jpg" alt="" class="img-fluid"></div>
+          <div class="item"><img src="./images/banner/DSC03066-min.JPG" alt="" class="img-fluid"></div>
+          <div class="item"><img src="./images/banner/IMG_5627-min.JPG" alt="" class="img-fluid"></div>
         </div>
     </div>
     <div class="container">
-      <section class="section">
+      <section class="section section__fashion">
         <div class="service-title">
           <b></b>
           <h3>Chụp hình thời trang</h3>
@@ -121,107 +147,102 @@
         <div class="row">
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/fashion/DSC_9969.jpg" alt="">
+              <img class="lazy-load" data-src="./images/fashion/DSC07006-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/fashion/DSC_9612.jpg" alt="">
+              <img class="lazy-load" data-src="./images/fashion/IMG_8485-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/fashion/DSC_0328.jpg" alt="">
+              <img class="lazy-load" data-src="./images/fashion/IMG_7551-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/fashion/TOM_3379.jpg" alt="">
+              <img class="lazy-load" data-src="./images/fashion/MION0385-min.jpeg" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/fashion/TOM_3932.jpg" alt="">
+              <img class="lazy-load" data-src="./images/fashion/DSC09678-min.jpg" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/fashion/DSC_6392.jpg" alt="">
+              <img class="lazy-load" data-src="./images/fashion/IMG_0530-min.JPG" alt="">
             </div>
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section section__phukien">
         <div class="service-title">
           <b></b>
-          <h3>Chụp hình mỹ phẩm</h3>
+          <h3>Chụp hình phụ kiện</h3>
           <b></b>
         </div>
         <div class="row">
           
           <div class="col-12 col-sm-6">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/DSC_9321-Copy.jpg" alt="">
+            <div class="item item__img--hover item-6">
+              <img class="lazy-load" data-src="./images/phukien/DSC01140-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-6">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/LVN_4695.jpg" alt="">
+            <div class="item item__img--hover item-6">
+              <img class="lazy-load" data-src="./images/phukien/DSC01781-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/DSC_8830.jpg" alt="">       
+            <div class="item item__img--hover item-4">
+              <img class="lazy-load" data-src="./images/phukien/DSC03157-min.JPG" alt="">       
             </div>
           </div>
           <div class="col-12 col-sm-4">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/LVN_4789.jpg" alt="">
+            <div class="item item__img--hover item-4">
+              <img class="lazy-load" data-src="./images/phukien/DSC04949-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/LVN_7128.jpg" alt="">
+            <div class="item item__img--hover item-4">
+              <img class="lazy-load" data-src="./images/phukien/DSC05352-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-6">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/TOM_5863.jpg" alt="">
+            <div class="item item__img--hover item-6">
+              <img class="lazy-load" data-src="./images/phukien/DSC05395-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-6">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/TOM_5871.jpg" alt="">       
+            <div class="item item__img--hover item-6">
+              <img class="lazy-load" data-src="./images/phukien/DSC07430-min.JPG" alt="">       
             </div>
           </div>
           <div class="col-12 col-sm-4">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/TOM_5877.jpg" alt="">
+            <div class="item item__img--hover item-4">
+              <img class="lazy-load" data-src="./images/phukien/DSC07440-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/TOM_5879.jpg" alt="">
+            <div class="item item__img--hover item-4">
+              <img class="lazy-load" data-src="./images/phukien/DSC07551-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/TOM_5880.jpg" alt="">
+            <div class="item item__img--hover item-4">
+              <img class="lazy-load" data-src="./images/phukien/DSC07986-min.JPG" alt="">
             </div>
           </div>
-          <div class="col-12 col-sm-4">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/TOM_6954.jpg" alt="">
+          <div class="col-12 col-sm-6">
+            <div class="item item__img--hover item-6">
+              <img class="lazy-load" data-src="./images/phukien/DSC09185-min.JPG" alt="">
             </div>
           </div>
-          <div class="col-12 col-sm-4">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/TOM_6977.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="item item__img--hover">
-              <img src="./images/mypham/TOM_7025.jpg" alt="">
+          <div class="col-12 col-sm-6">
+            <div class="item item__img--hover item-6">
+              <img class="lazy-load" data-src="./images/phukien/DSC09204-min.JPG" alt="">
             </div>
           </div>
         </div>
@@ -235,52 +256,52 @@
         <div class="row">
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/LVN_0745.jpg" alt="">       
+              <img class="lazy-load" data-src="./images/sanpham/DSC00331-min.jpeg" alt="">       
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/LVN_1018.jpg" alt="">
+              <img class="lazy-load" data-src="./images/sanpham/DSC03086-min.jpeg" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/LVN_8574.jpg" alt="">       
+              <img class="lazy-load" data-src="./images/sanpham/DSC06182-min.JPG" alt="">       
             </div>
           </div>
           <div class="col-12 col-sm-6">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/TOM_5819.jpg" alt="">
+              <img class="lazy-load" data-src="./images/sanpham/DSC07541-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-6">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/TOM_5934.jpg" alt="">
+              <img class="lazy-load" data-src="./images/sanpham/DSC07871-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/100085272513000_0.jpg" alt="">
+              <img class="lazy-load" data-src="./images/sanpham/DSC07987-min.JPG" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/DSC_4172.jpg" alt="">
+              <img class="lazy-load" data-src="./images/sanpham/DSC09830-min.jpeg" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-4">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/LVN_4403.jpg" alt="">
+              <img class="lazy-load" data-src="./images/sanpham/IMG_3009-min.jpeg" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-6">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/LVN_5563.jpg" alt="">
+              <img class="lazy-load" data-src="./images/sanpham/IMG_4424-min.jpeg" alt="">
             </div>
           </div>
           <div class="col-12 col-sm-6">
             <div class="item item__img--hover">
-              <img src="./images/sanpham/LVN_8600.jpg" alt="">
+              <img class="lazy-load" data-src="./images/sanpham/IMG_4513-min.jpeg" alt="">
             </div>
           </div>
         </div>
@@ -295,7 +316,7 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="item">
               <div class="image d-flex justify-content-center">
-                <img src="./images/why/i1.png" alt="" class="fix-img">
+                <img class="lazy-load fix-img" data-src="./images/why/i1.png" alt="">
               </div>
               <h2 class="title-center quality"> Chất lượng vượt trội </h2>
               <p>Chúng tôi với đội ngũ chuyên nghiệp, sử dụng các công nghệ máy ảnh, đạo cụ chụp hình tiên tiến nhất.</p>
@@ -304,7 +325,7 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="item">
               <div class="image d-flex justify-content-center">
-                <img src="./images/why/i2.png" alt="" class="fix-img">
+                <img class="lazy-load fix-img" data-src="./images/why/i2.png" alt="">
               </div>
               <h2 class="title-center service"> DỊCH VỤ CHUYÊN NGHIỆP </h2>
               <p>Cam kết sản phẩm đến tay Quý khách trong thời gian nhanh nhất, đúng hẹn nhất. </p>
@@ -313,7 +334,7 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="item">
               <div class="image d-flex justify-content-center">
-                <img src="./images/why/i3.png" alt="" class="fix-img">
+                <img class="lazy-load fix-img" data-src="./images/why/i3.png" alt="">
               </div>
               <h2 class="title-center money"> CHI PHÍ CẠNH TRANH </h2>
               <p>Chúng tôi luôn tối ưu chi phí đến mức thấp nhất cho Quý khách hàng.</p>
@@ -322,7 +343,7 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="item">
               <div class="image d-flex justify-content-center">
-                <img src="./images/why/i4.png" alt="" class="fix-img">
+                <img class="lazy-load fix-img" data-src="./images/why/i4.png" alt="">
               </div>
               <h2 class="title-center free"> CHỤP MẪU MIỄN PHÍ </h2>
               <p>Chúng tôi hỗ trợ chụp test sản phẩm miễn phí, để quý khách duyệt mẫu trước khi tiến hành chụp chính thức.</p>
@@ -331,7 +352,7 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="item">
               <div class="image d-flex justify-content-center">
-                <img src="./images/why/i5.png" alt="" class="fix-img">
+                <img class="lazy-load fix-img" data-src="./images/why/i5.png" alt="">
               </div>
               <h2 class="title-center creation"> SÁNG TẠO </h2>
               <p>Chúng tôi luôn nỗ lực sáng tạo để tạo ra hình ảnh tới tay khách hàng thật sự ưng ý nhất.</p>
@@ -340,10 +361,10 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="item">
               <div class="image d-flex justify-content-center">
-                <img src="./images/why/i6.png" alt="" class="fix-img">
+                <img class="lazy-load fix-img" data-src="./images/why/i6.png" alt="">
               </div>
-              <h2 class="title-center delivery"> GIAO HÀNG TẬN NƠI </h2>
-              <p>Chúng tôi có thể giao hàng tận nơi trong nội thành, đến các tỉnh thông qua các đối tác.</p>
+              <h2 class="title-center delivery">Sửa ảnh chất lượng</h2>
+              <p>Chúng tôi cam kết hình ảnh có màu sắc độc lạ, nghệ thuật, nịnh mắt với bộ màu độc quyền chất lượng, hợp xu hướng</p>
             </div>
           </div>
         </div>
@@ -358,7 +379,7 @@
           <div class="col-12 col-md-6"> 
             <div class="item-big">
               <div class="thumbnail">
-                <img src="./images/fashion/DSC_0328.jpg" alt="">
+                <img class="lazy-load" data-src="./images/fashion/DSC07006-min.JPG" alt="">
               </div>
               <h3 class="p-title"><a href="#"> 4 điều cần lưu ý khi chụp ảnh sản phẩm thời trang </a> </h3>
               <p class="description">Có được những bức ảnh sản phẩm đẹp từ lâu đã là mong muốn của rất nhiều người kinh doanh. Bởi vì sản phẩm có bắt mắt thì khách hàng mới chú ý đến và quyết định mua sản phẩm. </p>
@@ -369,7 +390,7 @@
               <div class="col-6">
                 <div class="item">
                   <div class="thumbnail">
-                    <img src="./images/fashion/DSC_6392.jpg" alt="">
+                    <img class="lazy-load" data-src="./images/phukien/DSC01781-min.JPG" alt="">
                   </div>
                   <h3 class="p-title">4 điều cần lưu ý khi chụp ảnh sản phẩm thời trang</h3>
                 </div>
@@ -377,7 +398,7 @@
               <div class="col-6">
                 <div class="item">
                   <div class="thumbnail">
-                    <img src="./images/fashion/DSC_9612.jpg" alt="">
+                    <img class="lazy-load" data-src="./images/sanpham/IMG_4514-min.jpeg" alt="">
                   </div>
                   <h3 class="p-title">4 điều cần lưu ý khi chụp ảnh sản phẩm thời trang</h3>
                 </div>
@@ -385,7 +406,7 @@
               <div class="col-6">
                 <div class="item">
                   <div class="thumbnail">
-                    <img src="./images/fashion/DSC_0328.jpg" alt="">
+                    <img class="lazy-load" data-src="./images/fashion/IMG_0530-min.JPG" alt="">
                   </div>
                   <h3 class="p-title">4 điều cần lưu ý khi chụp ảnh sản phẩm thời trang</h3>
                 </div>
@@ -393,7 +414,7 @@
               <div class="col-6">
                 <div class="item">
                   <div class="thumbnail">
-                    <img src="./images/fashion/DSC_9969.jpg" alt="">
+                    <img class="lazy-load" data-src="./images/phukien/DSC07440-min.JPG" alt="">
                   </div>
                   <h3 class="p-title">4 điều cần lưu ý khi chụp ảnh sản phẩm thời trang</h3>
                 </div>
@@ -451,15 +472,15 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-8">
-            <h5>Liên hệ</h5>
-            Hotline/zalo: 888.888 <br><br>
-            Email: emailstudio@gmail.com <br><br>
-            Địa chỉ: Triều Khúc - Thanh Xuân - Hà Nội
+          <div class="col-xs-12 col-md-8">
+            <h5 style="font-weight: 700; font-size: 20px;">Liên hệ</h5>
+            Hotline/zalo: 0363.248.678 <br><br>
+            Email: anstudio678@gmail.com <br><br>
+            Địa chỉ: Toà nhà N05-12, khu tái định cư Triều Khúc, Thanh Trì, Hà Nội 
           </div>
-          <div class="col-4">
+          <div class="col-xs-12 col-md-4 ">
             <div class="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14901.450473309716!2d105.7938072486316!3d20.978096623780864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acce762c2bb9%3A0xbb64e14683ccd786!2zSOG7jWMgVmnhu4duIENOIELGsHUgQ2jDrW5oIFZp4buFbiBUaMO0bmcgLSBIw6AgxJDDtG5n!5e0!3m2!1svi!2s!4v1608673161344!5m2!1svi!2s" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.22614874267!2d105.79828881534968!3d20.983569994694363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acc159865c55%3A0x526142437bd38b9d!2zNjZhIFBo4buRIFRyaeG7gXUgS2jDumMsIFRyaeG7gXUgS2jDumMsIFRoYW5oIFh1w6JuLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1608871729455!5m2!1svi!2s" width="800" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
           </div>
         </div>
@@ -472,6 +493,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <!-- carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- lazyload -->
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
     <!-- custom js -->
     <script src="js/main.js"></script>
   </body>

@@ -25,17 +25,31 @@
     <title>Liên hệ</title>
   </head>
   <body>
+    <div class="call">
+      <div>
+        <img src="./images/call/phone.svg" alt="phone" class="phone-img">
+        <span class="call__phone">Gọi ngay</span>
+      </div>
+      <div>
+        <img src="./images/call/messenger.svg" alt="mess" class="mess-img">
+        <span class="call__mess">Chat với cúng tôi qua messenger</span>  
+      </div>
+      <div >
+        <img src="./images/call/zalo.svg" alt="zalo" class="zalo-img"/>
+        <span class="call__zalo">Chat với cúng tôi qua zalo</span>  
+      </div>
+    </div>
     <div class="header-top d-none d-lg-block">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
           <div class="time__contact">
             <p>
               <span> <img src="./images/i_phone.png" alt=""></span>
-              Hotline: <a href="tel:0357654619">035 7654 619</a> 
+              Hotline: <a href="tel:0357654619">0363.248.678</a> 
             </p>
             <p>
               <span> <img src="./images/i_mail.png" alt=""></span>
-              Email: <a href="mailto:vbh30062001@gmail.com">vbh30062001@gmail.com</a> 
+              Email: <a href="mailto:anstudio678@gmail.com">anstudio678@gmail.com</a> 
             </p>
           </div>
           <div class="top__search">
@@ -53,23 +67,25 @@
     </div>
     <div class="header">
       <div class="container-lg">
-        <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex justify-content-between align-items-center" >
           <button class="btn btn-menu-open d-block d-lg-none">
             <span></span>
             <span></span>
             <span></span>
           </button>
-          <div class="logo">
+          <div class="logo d-flex align-items-center">
             <a href="./index.html"><img src="./images/logo.png" alt=""></a>
           </div>
           <div class="navigation d-none d-lg-block">
             <ul class="d-flex justify-content-between">
               <li> <a href="./index.html"> Trang chủ </a></li>
               <li> <a href="#"> Giới thiệu</a></li>
-              <li class="dropdown"> <a href="#"> Dịch vụ</a>
+              <li class="dropdown"> <a href="./services/chup-anh-thoi-trang.html"> Dịch vụ</a>
                 <ul class="dropdown-menu">
-                  <li class="dropdown-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
-                  <li class="dropdown-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh chân dung </a></li>
+                  <li class="dropdown-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh sản phẩm trải nền </a></li>
+                <li class="dropdown-item"> <a href="./services/chup-anh-san-pham-concept.html"> Chụp ảnh sản phẩm theo concept </a></li>
+                <li class="dropdown-item"> <a href="./services/chup-anh-phu-kien.html"> Chụp ảnh phụ kiện </a></li>
+                <li class="dropdown-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
                 </ul>
               </li>
               <li> <a href="./blog.html"> Tin tức</a></li>
@@ -82,16 +98,18 @@
         <div class="sidebar__bg"></div>
         <div class="sidebar__menu">
           <ul>
-            <li> <a href="#"> Trang chủ </a></li>
+            <li> <a href="./index.html"> Trang chủ </a></li>
             <li> <a href="#"> Giới thiệu</a></li>
-            <li class="dropdown__sidebar"> <a href="#"> Sản phẩm</a>
+            <li class="dropdown__sidebar"> <a href="#">Dịch vụ</a>
               <ul class="dropdown__sidebar-menu" aria-labelledby="nav-menu">
-                <li class="dropdown__sidebar-item"> <a href="#"> Sản phẩm nổi bật </a></li>
-                <li class="dropdown__sidebar-item"> <a href="#"> Sản phẩm mới </a></li>
+                <li class="dropdown__sidebar-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh sản phẩm trải nền </a></li>
+                <li class="dropdown__sidebar-item"> <a href="./services/chup-anh-san-pham-concept.html"> Chụp ảnh sản phẩm theo concept </a></li>
+                <li class="dropdown__sidebar-item"> <a href="./services/chup-anh-phu-kien.html"> Chụp ảnh phụ kiện </a></li>
+                <li class="dropdown__sidebar-item"> <a href="./services/chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
               </ul>
             </li>
-            <li> <a href="#"> Tin tức</a></li>
-            <li> <a href="#"> Liên hệ</a></li>
+            <li> <a href="./blog.html"> Tin tức</a></li>
+            <li> <a href="./contact.html"> Liên hệ</a></li>
           </ul>
         </div>
         <button class="btn btn-menu-close d-block d-lg-none">
@@ -107,7 +125,7 @@
     <div class="contact">
       <div class="container">
         <div class="row">
-          <div class="col-8">
+          <div class="col-md-8">
             <p>
               Studio xin kính chào Quý khách. 
               Để biết thêm chi tiết chụp hình sản phẩm,
@@ -150,8 +168,7 @@
               <button class="btn">Gửi đi</button>
             </form>
           </div>
-          <div class="col-4 posts-title">
-            
+          <div class="mt-5 mt-md-3 col-md-4 posts-title">
             <p class="posts-title__name">Bài viết mới</p>
             <ul>
               <li>
@@ -179,15 +196,15 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-8">
-            <h5>Liên hệ</h5>
-            Hotline/zalo: 888.888 <br><br>
-            Email: emailstudio@gmail.com <br><br>
-            Địa chỉ: Triều Khúc - Thanh Xuân - Hà Nội
+          <div class="col-xs-12 col-md-8">
+            <h5 style="font-weight: 700; font-size: 20px;">Liên hệ</h5>
+            Hotline/zalo: 0363.248.678 <br><br>
+            Email: anstudio678@gmail.com <br><br>
+            Địa chỉ: Toà nhà N05-12, khu tái định cư Triều Khúc, Thanh Trì, Hà Nội 
           </div>
-          <div class="col-4">
+          <div class="col-xs-12 col-md-4 ">
             <div class="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14901.450473309716!2d105.7938072486316!3d20.978096623780864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acce762c2bb9%3A0xbb64e14683ccd786!2zSOG7jWMgVmnhu4duIENOIELGsHUgQ2jDrW5oIFZp4buFbiBUaMO0bmcgLSBIw6AgxJDDtG5n!5e0!3m2!1svi!2s!4v1608673161344!5m2!1svi!2s" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.22614874267!2d105.79828881534968!3d20.983569994694363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acc159865c55%3A0x526142437bd38b9d!2zNjZhIFBo4buRIFRyaeG7gXUgS2jDumMsIFRyaeG7gXUgS2jDumMsIFRoYW5oIFh1w6JuLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1608871729455!5m2!1svi!2s" width="800" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
           </div>
         </div>

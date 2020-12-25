@@ -1,4 +1,15 @@
 $(document).ready(function() {
+    $("img.lazy-load").lazyload();
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 200) {
+            $(".header").addClass("active");
+            $(".form-search-respon").addClass("d-none");
+        } else {
+            $(".header").removeClass("active");
+            $(".form-search-respon").removeClass("d-none");
+
+        }
+    })
     $(".dropdown").hover(function () {
         $(this).toggleClass("active");
     });
@@ -36,7 +47,17 @@ $(document).ready(function() {
         margin:10,
         nav:true,
         dots: false,
-        items: 3,
+        responsive : {
+            0 : {
+                items: 1,
+            },
+            480 : {
+               items: 1,
+            },
+            768 : {
+                items: 3
+            }
+        },
         navText: ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"]
 
     }) 
