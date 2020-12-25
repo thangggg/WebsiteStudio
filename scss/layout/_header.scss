@@ -177,8 +177,14 @@ h3.p-title {
         transform: perspective(600px) rotateX(0deg);
     }
     .logo {
-        width: 100px;
+        width: 60px;
         height: 120px;
+    }
+    @media (max-width: 990px) {
+        .logo {
+            width: 50px;
+            height: 100px
+        }
     }
     .navigation {
         height: 120px;
@@ -508,4 +514,13 @@ h3.p-title {
     .section__why .item {
         min-height: 300px;
     }
+}
+.section__fashion .item, .section__phukien .item {
+    background-color: #eee;
+}
+.section__fashion .item img {
+    height: 360px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $("img.lazy-load").lazyload();
     $(window).scroll(function() {
         if($(this).scrollTop() > 200) {
             $(".header").addClass("active");
