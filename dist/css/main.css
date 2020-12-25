@@ -288,7 +288,7 @@ h3.p-title {
   .header .sidebar__bg {
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -307,7 +307,7 @@ h3.p-title {
   .header .sidebar__menu {
     width: 100%;
     max-width: 375px;
-    height: 100vh;
+    height: 100%;
     background: #fff;
     position: fixed;
     top: 0;
@@ -373,6 +373,20 @@ h3.p-title {
     top: 50%;
     left: 0;
     transform: translateY(-50%); }
+
+.header.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8888;
+  width: 100%;
+  animation: header_active 0.5s ease-in; }
+
+@keyframes header_active {
+  from {
+    top: -50px; }
+  to {
+    top: 0; } }
 
 .gap-10 {
   gap: 10px; }
