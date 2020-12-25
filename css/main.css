@@ -286,14 +286,14 @@ h3.p-title {
     animation: dropdown .5s ease-in-out;
     transform: perspective(600px) rotateX(0deg); }
   .header .logo {
-    width: 60px;
-    height: 120px; }
+    width: 80px;
+    height: 100px; }
   @media (max-width: 990px) {
     .header .logo {
       width: 40px;
       height: 60px; } }
   .header .navigation {
-    height: 120px; }
+    height: 100px; }
   .header .navigation > ul > li {
     position: relative;
     padding: 1.5em 0.75em;
