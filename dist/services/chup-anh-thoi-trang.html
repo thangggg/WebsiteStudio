@@ -44,17 +44,18 @@
       <div class="d-flex justify-content-between align-items-center">
         <div class="time__contact">
           <p>
-            <span> <img src="./images/i_phone.png" alt=""></span>
-            Hotline: <a href="tel:0357654619">0363.248.678</a> 
+            <span> <img class="lazy-load" data-src="./images/i_phone.png" alt=""></span>
+            Hotline: <a href="tel:0363248678">0363.248.678</a> 
           </p>
           <p>
-            <span> <img src="./images/i_mail.png" alt=""></span>
+            <span> <img class="lazy-load" data-src="./images/i_mail.png" alt=""></span>
             Email: <a href="mailto:anstudio678@gmail.com">anstudio678@gmail.com</a> 
+
           </p>
         </div>
         <div class="top__search">
           <div class="btn btn-search">
-            <span> <img src="./images/i_search.png" alt=""></span>
+            <span> <img class="lazy-load" data-src="./images/i_search.png" alt=""></span>
             Search
           </div>
           <form action="" class="search-form">
@@ -74,18 +75,20 @@
           <span></span>
         </button>
         <div class="logo d-flex align-items-center">
-          <a href="../index.html"><img src="./images/logo.png" alt=""></a>
+          <a href="../index.html" class="d-none d-lg-block"><img class="lazy-load" data-src="../images/logo.png" alt=""></a>
+          <a href="../index.html" class="d-block -d-lg-none"><img class="lazy-load" data-src="../images/logo-2.png" alt=""></a>
         </div>
+        <div class="d-block d-lg-none"></div>
         <div class="navigation d-none d-lg-block">
           <ul class="d-flex justify-content-between">
             <li> <a href="../index.html"> Trang chủ </a></li>
             <li> <a href="#"> Giới thiệu</a></li>
-            <li class="dropdown"> <a href="./chup-anh-san-pham-trai-nen.html"> Dịch vụ</a>
+            <li class="dropdown"> <a href="./chup-anh-thoi-trang.html"> Dịch vụ</a>
               <ul class="dropdown-menu">
-                <li class="dropdown-item"> <a href="./chup-anh-san-pham-trai-nen.html"> Chụp ảnh sản phẩm trải nền </a></li>
-                <li class="dropdown-item"> <a href="./chup-anh-san-pham-concept.html"> Chụp ảnh sản phẩm theo concept </a></li>
-                <li class="dropdown-item"> <a href="./chup-anh-phu-kien.html"> Chụp ảnh phụ kiện </a></li>
-                <li class="dropdown-item"> <a href="./chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
+                <li class="dropdown-item"> <a href="./chup-anh-thoi-trang.html"> Chụp ảnh sản phẩm trải nền </a></li>
+              <li class="dropdown-item"> <a href="./chup-anh-san-pham-concept.html"> Chụp ảnh sản phẩm theo concept </a></li>
+              <li class="dropdown-item"> <a href="./chup-anh-phu-kien.html"> Chụp ảnh phụ kiện </a></li>
+              <li class="dropdown-item"> <a href="./chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
               </ul>
             </li>
             <li> <a href="../blog.html"> Tin tức</a></li>
@@ -98,14 +101,14 @@
       <div class="sidebar__bg"></div>
       <div class="sidebar__menu">
         <ul>
-          <li> <a href="../index.html"> Trang chủ </a></li>
+          <li> <a href="./index.html"> Trang chủ </a></li>
           <li> <a href="#"> Giới thiệu</a></li>
           <li class="dropdown__sidebar"> <a href="#">Dịch vụ</a>
             <ul class="dropdown__sidebar-menu" aria-labelledby="nav-menu">
-              <li class="dropdown__sidebar-item"> <a href="./chup-anh-san-pham-trai-nen.html"> Chụp ảnh sản phẩm trải nền </a></li>
-                <li class="dropdown__sidebar-item"> <a href="./chup-anh-san-pham-concept.html"> Chụp ảnh sản phẩm theo concept </a></li>
-                <li class="dropdown__sidebar-item"> <a href="./chup-anh-phu-kien.html"> Chụp ảnh phụ kiện </a></li>
-                <li class="dropdown__sidebar-item"> <a href="./chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
+              <li class="dropdown__sidebar-item"> <a href="./chup-anh-thoi-trang.html"> Chụp ảnh sản phẩm trải nền </a></li>
+              <li class="dropdown__sidebar-item"> <a href="./chup-anh-san-pham-concept.html"> Chụp ảnh sản phẩm theo concept </a></li>
+              <li class="dropdown__sidebar-item"> <a href="./chup-anh-phu-kien.html"> Chụp ảnh phụ kiện </a></li>
+              <li class="dropdown__sidebar-item"> <a href="./chup-anh-thoi-trang.html"> Chụp ảnh thời trang </a></li>
             </ul>
           </li>
           <li> <a href="../blog.html"> Tin tức</a></li>
@@ -117,10 +120,13 @@
         <span></span>
       </button>
     </div>
-    <form action="" class="search-form d-block d-lg-none">
-      <input type="text" class="btn" placeholder="Tìm kiếm...">
-      <button type="submit" class="btn"><i class="fas fa-search"></i></button>
-    </form>
+    <div class="form-search-respon">
+      <form action="" class="search-form d-block d-lg-none">
+        <input type="text" class="btn" placeholder="Tìm kiếm...">
+        <button type="submit" class="btn"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+    
   </div>
   <div class="chup-anh-thoi-trang">
     <div class="container">
